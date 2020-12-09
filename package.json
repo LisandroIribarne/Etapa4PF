@@ -1,0 +1,17 @@
+{
+  "name": "distribuciondebebidasdelsur",
+  "version": "1.0.0",
+  "description": "Entrega poryecto final 4, sitio web sobre una empresa distribuidora de bebidas alcoholicas.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss estilo.scss estilo.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "author": "Lisandro Iribarne",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^5.0.0",
+    "nodemon": "^2.0.6"
+  }
+}
